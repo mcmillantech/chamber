@@ -1,0 +1,54 @@
+
+<style>
+.section
+{
+	clear:			both;
+	font-size:		120%;
+	color:			#0086b3;
+	font-weight:	bold;
+//	height:			25px;
+	padding-top:	5px;
+	padding-bottom:	5px;
+}
+
+.name
+{
+	float:			left;
+	width:			180px;
+}
+
+.co
+{
+
+	float:			left;
+	width:			320px;
+}
+
+.phone
+{
+	float:			left;
+	width:			100px;
+}
+
+</style>
+
+
+<div>
+	<div class="section">&nbsp;Executive Committee</div>
+	{officers}
+		<div class="section">{office}</div>
+		<span class='name'>{name}</span>
+		<span class='co'>{company}</span>
+		<span class='phone'>{phone}</span>
+	{/officers}
+	
+	<br><p>The above officers plus</p>
+	{members}
+		<div class="section">{office}</div>
+		<span class='name'>{name}</span>
+		<span class='co'>{company}</span>
+		<span class='phone'>{phone}</span>
+	{/members}
+
+</div>
+<p style='clear:both'>&nbsp;</p>

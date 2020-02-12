@@ -1,0 +1,51 @@
+<!doctype html public "-//w3c//dtd html 4.01 transitional//en"
+   "http://www.w3.org/tr/html4/loose.dtd">
+<html>
+ 
+<head>
+<meta name="sq.layout" content="sidebar"> 
+<title>Countryside and scenery around Sudbury</title>
+<meta name="description"
+ content="Countryside and scenery around Sudbury">
+<meta name=viewport content="width=device-width, initial-scale=1.0">
+
+<meta name="keywords"
+ content="countryside, scenery, England, Constable, landscape, Gainsborough, footpaths, walking, picnic, picnic site, meadows">
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<link type="text/css" rel="stylesheet" href="Chamber.css">
+<link type="text/css" rel="stylesheet" href="Menus.css">
+<script src="Chamber.js"></script> 
+</head>
+
+<body onLoad="checkMobile()" >
+
+<!--#include virtual="Header.html" -->
+
+<h2>Scenery and Countryside</H2>
+<p style="margin-left:5%"><img src="images/MillPond2.jpg" alt="mill pond" width="90%" align="center"></p>
+Sudbury resides in a loop in the River Stour. The Stour is the river of
+Constable and one can see Constable's scenery everywhere. To the south, the
+land rises to Essex in a landscape immortalised by Gainsborough. The meadows
+around Sudbury are the oldest continuously grazed land in England. They are
+crossed by many footpaths and are excellent for walking.</P>
+<P>You can access King's Meadow from the long stay car park next to the
+Kingfisher. As well as the meadow, this point also marks the start of the
+Valley walk. The Valley walk follows the route of the old Sudbury to Cambridge
+railway line. It is well maintained and signed and provides easy walking for
+around three miles, ending at the Rodbridge picnic site and country park. For a
+short circular walk, you can follow the Valley Walk for about a mile, cross
+over the main A131 to Braintree and descend to the meadows. Follow these to the
+Mill Hotel or the Croft and walk back into town.</P>
+<P>The Croft is a local beauty spot, just off the one way system, past the fire
+station and St Gregory's church. It can also be reached from North Street. Turn
+left at Argos, pass the short stay car park and turn right by the entrance of
+the Waggon and Horses. The Croft is across the main road. The Croft has extensive lawns sloping
+down to the River, with a picnic site and boating pool opposite. Children love
+feeding the ducks and swans at the Croft. From the Croft, footpaths stretch in
+three directions over the meadows.</P>
+
+<!--#include virtual="Footer.html" -->
+
+</body>
+</html>

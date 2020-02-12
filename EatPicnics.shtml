@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+ 
+<HTML>
+ 
+<HEAD>
+<TITLE>Eating Out in Sudbury Suffolk</TITLE>
+<META NAME="DESCRIPTION"
+ CONTENT="Eating in Sudbury Suffolk">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<link type="text/css" rel="stylesheet" href="Chamber.css">
+
+</HEAD>
+
+<BODY>
+<!--#include virtual="Header.html" -->
+<!--#include virtual="Leftmenu.html" -->
+
+<h2>Lunches: Picnic Areas</h2>
+<p>Belle Vue Park</p>
+<p>The Croft</p>
+<p>The Mill</p>
+<p>Friars Meadow</p>
+<p>(Please do not feed the ducks)</p>
+
+<td width="22%" valign="top">	
+      <h3 class="banner">Eating Places</h3>
+      <br>
+	<p><a class="barsr" href="Eating.php?class=Cafe">Cafe Restaurants</a></p>
+	<p><a class="barsr" href="Eating.php?class=Rest">Restaurants</a></p>
+    <p><a class="barsr" href="Eating.php?class=Pubs">Pub Food</a></p>
+    <p><a class="barsr" href="Eating.php?class=Chips">Fish &amp; Chips &amp; Fast Food</a></p>
+    <p><a class="barsr" href="EatPicnics.shtml">Picnic Areas</a></p>
+    <p><a class="barsr" href="Eating.php?class=Sandw">Sandwiches</a>
+  </td></tr></table>
+<!--#include virtual="Footer.html" -->
+
+</BODY>
+</HTML>

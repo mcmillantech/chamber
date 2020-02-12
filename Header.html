@@ -1,0 +1,84 @@
+<!-- 
+    Sudbury Chamber of Commerce
+    Header file. Defines top of pages, holds the menu and opens the container div
+    Widthis of header and mainpanel are set in js file
+
+    Container is closed in the footer
+-->
+<div id="header">
+    <div id="BannerL" >
+        <p>
+        Welcome to Sudbury Chamber of Commerce
+        </p>
+    </div>
+    <div id="BannerR">
+            <IMG src="images/logo.jpg" alt="Sudbury suffolk Chamber of Commerce logo" border="0" height="80" align="right">
+    </div>
+
+    <div style="clear:both"><br> </div>
+
+    <div style="width:100%; background-color:lightblue; height:24px">
+    <ul id="sddm">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="#" onmouseover="mopen('m1')" onmouseout="mclosetime()">Sudbury Chamber</a>
+            <div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                <a href="ChamberHome.shtml">About the Chamber</a>
+                <a href="BusinessHelp.php">Help for Business</a>
+                <a href="briefings.php">Meetings</a>
+                <a href="https://sudburysfk.wordpress.com" target="_blank">Chamber Blog</a>
+                <a href="Prices.shtml">Chamber Services and Prices</a>
+                <a href="Committee.php">Committee Members</a>
+                <a href="News.php">Chamber News</a>
+            </div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()">Sudbury</a>
+            <div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                <a href="Countryside.shtml">Countryside & Scenery</a>
+                <a href="SudExperience.shtml">Shopping in Sudbury</a>
+                <a href="DoBusiness.shtml">Business in Sudbury</a>
+                <a href="Attractions.shtml">Local Attractions</a>
+                <a href="Accom.php?class=HT1">Accommodation</a>
+                <a href="LiveMusic.shtml">Live Music</a>
+            </div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m4')" onmouseout="mclosetime()">Business Directory</a>
+            <div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                <a href="MembersBan.htm"> Banks & Building Societies</A>
+                <a href="MembersBus.htm"> Business Supplies</A>
+                <a href="MembersBSD.htm"> Business Advice and Design Services</A>
+                <a href="MembersEst.htm"> Estate Agents</A>
+                <a href="MembersFoo.htm"> Food & Catering Supplies</A>
+                <a href="MembersGen.htm"> General</A>
+                <a href="MembersHai.htm"> Hairdressers</A>
+                <a href="MembersHot.htm"> Hotels & Guest Houses</A>
+                <a href="MembersInd.htm"> Industrial</A>
+                <a href="MembersIns.htm"> Insurance</A>
+                <a href="MembersLei.htm"> Leisure</A>
+                <a href="MembersMot.htm"> Motor</A>
+                <a href="MembersPro.htm"> Professional Services</A>
+                <a href="MembersPub.htm"> Public Services</A>
+                <a href="MembersRes.htm"> Restaurants & Lunches</A>
+                <a href="MembersRet.htm"> Retail</A>
+                <a href="MembersSol.htm"> Solicitors</A>
+            </div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()">Other sites</a>
+            <div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                <a href="http://www.suffolkchamber.co.uk/" target="_blank">Suffolk Chamber</a>
+                <a href="http://www.sudburytowncouncil.co.uk/" target="_blank">Sudbury Town Council</A>
+                <a href="http://www.suffolkfreepress.co.uk/" target="_blank">Sudbury News</A>
+            </div>
+	</li>
+
+    </ul>
+    </div>
+<!--
+	<div id="mobileHeader" style="display:none">
+		<div id="Menubutton" style="clear:left; float:left;" onClick="goMenu()">Menu</div>
+		<div id="busdirbutton" style="float:right;" onClick="goBusdir()">
+			Business Directory</div>
+		<div style="clear:both"></div><br>
+	</div> -->
+</div>      <!-- End of header -->
+
+<div id="MainPanel">

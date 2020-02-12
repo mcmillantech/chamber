@@ -1,0 +1,42 @@
+<!doctype html public "-//w3c//dtd html 4.01 transitional//en"
+   "http://www.w3.org/tr/html4/loose.dtd">
+ 
+<html>
+ 
+<head>
+<title>Doing Business in Sudbury, Suffolk</title>
+<meta name="description" content="Doing Business in Sudbury, Suffolk">
+<meta name=viewport content="width=device-width, initial-scale=1.0">
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<link type="text/css" rel="stylesheet" href="Chamber.css">
+<link type="text/css" rel="stylesheet" href="Menus.css">
+<script src="Chamber.js"></script> 
+</head>
+
+<body onLoad="checkMobile()" >
+
+<!--#include virtual="Header.html" -->
+
+<H2>Doing Business in Sudbury</H2>
+<P>Sudbury offers one of the most attractive working environments in the UK.
+Business accommodation is cheap. The East Anglian towns and cities of
+Cambridge, Norwich, Colchester and Chelmsford are all within easy reach.
+Sudbury's inhabitants consider London to be the optimum distance - around 80
+minutes by train. This is close enough to visit but far enough to discourage
+commuters. It is set in the beautiful Stour Valley, and surrounded by
+attractive villages. Property prices are modest, there are good schools and
+leisure facilities. Crime is amongst the lowest in the UK.</P>
+<P>Retail in Sudbury performs very well. In fact it is one of the best
+performing small market towns in the UK.</P>
+<P>Business services are far beyond what one would expect in a small market
+town. There are numerous advisers, design companies and
+suppliers. There is a mixture of commercial properties with numbers of trading
+estates. The Chamber of Commerce is active and powerful. One of Sudbury's
+strengths is in the relationships between the Chamber and local councils,
+service providers and education.</P>
+
+<!--#include virtual="Footer.html" -->
+
+</body>
+</html>

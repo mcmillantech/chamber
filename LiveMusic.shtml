@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+
+<title>Live Music in Sudbury Suffolk</title>
+<meta name="description"
+ content="Introduction to Sudbury, Suffolk, England, an attactive market town surrounded by attractive countryside an classic English villages">
+<meta name="keywords"
+ content="Sudbury, Chamber of Commerce, industry, leisure, tourism, business, Suffolk, pleasure, East Anglia,  market town, Lovejoy, silk, countryside, walking, holiday, English">
+<meta name=viewport content="width=device-width, initial-scale=1.0">
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" ><link type="text/css" rel="stylesheet" href="Chamber.css">
+<link type="text/css" rel="stylesheet" href="Chamber.css">
+<link type="text/css" rel="stylesheet" href="Menus.css">
+<script src="Chamber.js"></script> 
+</head>
+
+<body onLoad="checkMobile()" >
+
+<!--#include virtual="Header.html" -->
+
+<H2>Live Music in Sudbury</H2>
+Is live music dying? Not in Suffolk, it isn&#39;t. There are numerous pubs 
+featuring live music every week, catering for rock, acoustic and folk. In fact 
+Sudbury is almost the Hay on Wye for music. If you are visiting the area and 
+like live music, we hope you find this page useful.&nbsp; If you like live music 
+and don&#39;t have any at home, come and visit us anyway, it&#39;s a great place for a 
+holiday (see entries on the left). Audiences 
+from 18 to over 60 are catered for. The excellent magazine Grapevine (see
+<a href="http://www.grapevinelive.co.uk/" target="_blank">www.grapevinelive.co.uk</a>) gives a 
+pretty full listing of all gigs in East Anglia and is available in most of the 
+venues listed below.
+
+<p>Music is usually available in the following bars.&nbsp; They vary 
+in character, so if one isn&#39;t to your taste another one probably will be.&nbsp; 
+The entry &quot;rock&quot; includes music from the 60s through to the 90s.</p>
+
+<h3>The Bay Horse</h3>
+<p>Melford Road, Sudbury<br>
+01787 377450<br>
+Rock bands every Saturday and some Fridays. Other music Sunday afternoons. 
+Friendly. Older clientele.&nbsp; Accommodation available.</p>
+
+<h3>Prince of Wales</h3>
+<p>New Street, Sudbury<br>
+Rock bands every Saturday and most Fridays.</p>
+
+<h3>Brewery Tap</h3>
+<p>East Street, Sudbury</p>
+Acoustic music some Sunday afternoons. Traditional pub<br>
+01787 370876</p>
+
+<h3>North Street Tavern<br>
+<p>North Street, Sudbury opposite Argos.<br>
+Rock bands some Saturdays.</p>
+
+<h3>White Horse</h3>
+<p>North Street, Sudbury<br>
+Acoustic sessions some Sundays.<br>
+Facebook White Horsie</p>
+
+<h3>Quay Theatre</h3>
+<p>Quay Lane, Sudbury<br>
+Open acoustic night last Sunday of month</p>
+
+<h3>George and Dragon</h3>
+<p>Hall Street, Long Melford<br>
+Programme varies
+01787 371285<br>
+</p>
+
+<h3>Cock and Bell</h3>
+<p>Hall Street, Long Melford<br>
+Folk club 2nd Friday of month (actually anything goes).</p>
+
+<h3>Fleece, Boxford</h3>
+<p>Boxford, 6 miles east of Sudbury.<br>
+01787 211183<br>
+Folk club 2nd Wednesday of the month, blues jam 4th Wednesday<br>
+Events on 1st Sunday<br>
+</p>
+
+<p><b>Disclaimer</b>: The information is provided for guidance only. It may not be a 
+comprehensive list and the Chamber cannot be held liable for changes to any 
+programmes. An entry on this web page does not constitute a recommendation.</p>
+
+<!--#include virtual="Rightmenu.html" -->
+
+</BODY>
+</HTML>

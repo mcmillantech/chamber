@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+ 
+<HTML>
+ 
+<HEAD>
+<META NAME="SQ.LAYOUT" CONTENT="Sidebar"> 
+<META NAME="keywords" CONTENT=""> 
+<TITLE>Discounts Available for Sudbury Chamber Members</TITLE>
+<META NAME="DESCRIPTION"
+ CONTENT="Discounts Available for Sudbury Chamber Members">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<link type="text/css" rel="stylesheet" href="Chamber.css">
+</HEAD>
+
+<!--#include virtual="Header.html" -->
+<!--#include virtual="Leftmbrmenu.html" -->
+
+<H2>Member Discounts</H2>
+<P>Many discounts are available to members. </P>
+<table border="1" cellpadding="0" cellspacing="0" 
+  style="border-collapse: collapse" width="150%" id="AutoNumber1">
+  <tr>
+    <td width="56%">Angelo Smith<br>
+    &nbsp;&nbsp;Jewellers &amp; Clock Smiths</td>
+    <td width="22%">&nbsp;</td>
+    <td width="22%">01787 373051</td>
+  </tr>
+  <tr>
+    <td width="56%">Anglia Electrical Testing</td>
+    <td width="22%">Michael Dutch</td>
+    <td width="22%">01787 460597</td>
+  </tr>
+  <tr>
+    <td width="56%">Barrett-Lee<br>
+    &nbsp;&nbsp;Discount on servicing and MOT</td>
+    <td width="22%">Simon Barrett</td>
+    <td width="22%">01787 370774</td>
+  </tr>
+  <tr>
+    <td width="56%">Cartridge World</td>
+    <td width="22%">Shaun Tate</td>
+    <td width="22%">01787 379666</td>
+  </tr>
+  <tr>
+    <td width="56%">Checkers<br>
+    &nbsp;&nbsp;20% reduction on Proof reading and copy checking</td>
+    <td width="22%">&nbsp;</td>
+    <td width="22%">checkenclosed@aol.com</td>
+  </tr>
+  <tr>
+    <td width="56%">Curtis Lane<br>
+    &nbsp;&nbsp;Commercial &amp; Wedding Photography</td>
+    <td width="22%">Les Curtis</td>
+    <td width="22%">01787 210759</td>
+  </tr>
+  <tr>
+    <td width="56%">Holidayletsonline.com<br>
+    &nbsp;&nbsp;10% discount</td>
+    <td width="22%">&nbsp;</td>
+    <td width="22%">01787 311737</td>
+  </tr>
+  <tr>
+    <td width="56%">Hy-Line Hair Fashions</td>
+    <td width="22%">&nbsp;</td>
+    <td width="22%">01787 372596</td>
+  </tr>
+  <tr>
+    <td width="56%">Inkxpress</td>
+    <td width="22%">&nbsp;</td>
+    <td width="22%">01787 378555</td>
+  </tr>
+  <tr>
+    <td width="56%">Mauldens Brewery</td>
+    <td width="22%">Alison Sims</td>
+    <td width="22%">01787 311055</td>
+  </tr>
+  <tr>
+    <td width="56%">Motivation Matters</td>
+    <td width="22%">&nbsp;</td>
+    <td width="22%">01787 378851</td>
+  </tr>
+  <tr>
+    <td width="56%">Peddars</td>
+    <td width="22%">&nbsp;</td>
+    <td width="22%">01787 372726</td>
+  </tr>
+  <tr>
+    <td width="56%">Quansboro Plastics<br>
+    &nbsp;&nbsp;10% discount on garden products for telephone orders</td>
+    <td width="22%">&nbsp;</td>
+    <td width="22%">0845 223 5523</td>
+  </tr>
+  <tr>
+    <td width="56%">Specsavers<br>
+    &nbsp;&nbsp;Free hardcoat upgrade on orders from their &pound;75 range and over</td>
+    <td width="22%">&nbsp;</td>
+    <td width="22%">01787 468730</td>
+  </tr>
+  <tr>
+    <td width="56%">Splinters Catering</td>
+    <td width="22%">Sally Kerr</td>
+    <td width="22%">01787 373153</td>
+  </tr>
+  <tr>
+    <td width="56%">Sudbury Motor Factors</td>
+    <td width="22%">&nbsp;</td>
+    <td width="22%">01787 374706</td>
+  </tr>
+  <tr>
+    <td width="56%">Treadfirst<br>
+    &nbsp;&nbsp;10% reduction on exhausts, batteries, brakes, clutches, shocks, all service 
+    parts &amp; 5% on all tyres</td>
+    <td width="22%">&nbsp;</td>
+    <td width="22%">01787 880808</td>
+  </tr>
+  <tr>
+    <td width="56%">Treadfirst<br>
+    &nbsp;&nbsp;MOT and service</td>
+    <td width="22%">&nbsp;</td>
+    <td width="22%">01787 377342</td>
+  </tr>
+  <tr>
+    <td width="56%">William Armes Ltd</td>
+    <td width="22%">Philip Holroyd</td>
+    <td width="22%">01787 372988</td>
+  </tr>
+  <tr>
+    <td width="56%">Whirligig<br>
+    &nbsp;&nbsp;10% discount for this barn dance band</td>
+    <td width="22%">Richard Fawcett</td>
+    <td width="22%">01787 881314</td>
+  </tr>
+</table>
+
+<!--#include virtual="Footer.html" -->
+
+</BODY>
+</HTML>
