@@ -1,0 +1,102 @@
+<!doctype html>
+ 
+<html>
+ 
+<head>
+<title>Sudbury Chamber of Commerce Services</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<meta name=viewport content="width=device-width, initial-scale=1.0">
+
+<link type="text/css" rel="stylesheet" href="Chamber.css">
+<link type="text/css" rel="stylesheet" href="Menus.css">
+<script src="Chamber.js"></script> 
+</head>
+
+<body onLoad="checkMobile()" >
+
+<!--#include virtual="Header.html" -->
+
+<H1>Chamber of Commerce Services</H1>
+
+<table border=0 cellpadding="0" cellspacing="0" width="90%" height="1">
+  <tr>
+    <td width="66%" height="9">
+    <h3>Basic Membership</h3>
+    </td>
+    <td width="4%" height="9"></td>
+    <td width="30%" height="9"></td>
+  </tr>
+  <tr>
+    <td width="66%" height="47">
+    Basic membership includes business briefings, newsletters, and basic 
+    entry on Chamber web site
+    <p>Download an application form <a href=ChamberApplicationForm.pdf>here</a>.</p></td>
+    <td width="4%" height="47">&nbsp;</td>
+    <td width="30%" height="47">&pound;65 per year
+    </td>
+  </tr>
+  <tr>
+    <td width="66%" height="33">
+    <h3>Gold Membership</h3>
+    </td>
+    <td width="4%" height="33"></td>
+    <td width="34%" height="33">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="66%" height="38">
+    Includes long description on Chamber web site
+    <a href="http://www.Sudbury.org.uk">www.Sudbury.org.uk</a>, and link to your 
+    web site</td>
+    <td width="4%" height="38">&nbsp;</td>
+    <td width="34%" height="38">&pound;80 per year</td>
+  </tr>
+  <tr>
+    <td width="66%" height="26">
+    <h3>Additions to web site entry</h3>
+    </td>
+    <td width="4%" height="26"></td>
+    <td width="34%" height="26"><h3>&nbsp;</h3></td>
+  </tr>
+  <tr>
+    <td width="66%" height="26">
+    Inclusion of logo</td>
+    <td width="4%" height="26">&nbsp;</td>
+    <td width="34%" height="26">&pound;10</td>
+  </tr>
+  <tr>
+    <td width="66%" height="15">
+    Inclusion of picture</td>
+    <td width="4%" height="15"></td>
+    <td width="34%" height="15">&pound;15 per year</td>
+  </tr>
+  <tr>
+    <td width="66%" height="45">
+    <h3>Advertising</h3>
+    </td></p>
+    <td width="4%" height="45"></td>
+    <td width="34%" height="45"><h3>&nbsp;</h3></td>
+  </tr>
+  <tr>
+    <td width="66%" height="22">
+    Page e-mailed to all Chamber members</td>
+    <td width="4%" height="22">&nbsp;</td>
+    <td width="34%" height="22">&pound;50</td>
+  </tr>
+  <tr>
+    <td width="66%" height="24">
+    Advertisement on web site</td>
+    <td width="4%" height="24">&nbsp;</td>
+    <td width="34%" height="24">&pound;25 per year</td>
+  </tr>
+  <tr>
+    <td width="66%" height="26">
+    A4 insert in newsletter to 800 local companies and organisations</td>
+    <td width="4%" height="26">&nbsp;</td>
+    <td width="34%" height="26">&pound;250</td>
+  </tr>
+</table>
+
+<!--#include virtual="Footer.html" -->
+
+</body>
+</html>

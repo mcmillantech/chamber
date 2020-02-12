@@ -1,0 +1,5 @@
+dbname		chamber
+dbpw		sql
+dbuser		root
+braintree	../braintree-php-3.34.0/lib/Braintree.php
+

@@ -1,0 +1,48 @@
+<!doctype html>
+ 
+<html>
+<head>
+<title>The Sudbury Experience</title>
+<meta name="description" content="The Sudbury Experience">
+<meta name=viewport content="width=device-width, initial-scale=1.0">
+
+<META NAME="keywords"
+ CONTENT="pubs, restaurants, coffee shops, picnic, walking, Stour Valley, Quay Theatre">
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<link type="text/css" rel="stylesheet" href="Chamber.css">
+<link type="text/css" rel="stylesheet" href="Menus.css">
+<script src="Chamber.js"></script> 
+</head>
+
+<body onLoad="checkMobile()" >
+
+<!--#include virtual="Header.html" -->
+
+<H2>Shopping in Sudbury</H2>
+<H3>The Sudbury Experience</H3>
+<p style="margin-left:5%"><img src="images/NorthSt2.jpg" ALT="Sudbury North Street" width="90%" align="center"></p>
+<P>Sudbury is a pleasant place to shop. It is an attractive unspoiled market
+town. For those used to the crush of larger towns, a spell in Sudbury will be a
+pleasant surprise. Access is easy, traffic queues are rare and there is plenty
+of parking, all free. There is a wide range of shops with specialist small town
+shops mingling with high street names. There is a popular market on Thursdays
+and Saturdays. Sudbury offers a relaxed, uncrowded environment, set as it is in
+the beautiful Stour valley. There are many places to eat and drink, pubs and
+restaurants as well as snack bars coffee shops and fast food outlets. </P>
+<P>All the banks operate full counter services and cash points. </P>
+<P>The meadows surrounding Sudbury are very attractive and provide excellent
+walking and picnicking. You can picnic on the grass on King's Meadow (just past
+the Kingfisher leisure centre), or there is a picnic site next to the River
+Stour at the Croft - a popular beauty spot. The Quay theatre (10 minutes from
+the Centre) is well worth a visit. It has a bar, usually has art exhibitions
+and is set in an attractive location on the Stour. </P>
+<P>Parking is free. The car parks closest to the centre have a three hour
+parking limit but there is ample unlimited free parking near the station. This
+is a three or four minute walk from the centre. This is actually closer to the
+shops than some of the car parks at Lakeside. </P>
+
+<!--#include virtual="Footer.html" -->
+
+</body>
+</html>

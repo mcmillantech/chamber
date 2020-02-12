@@ -1,0 +1,4 @@
+dbname		cl28-chamber
+dbpw		qx23v
+dbuser		cl28-chamber
+braintree	./braintree-php-3.34.0/lib/Braintree.php
