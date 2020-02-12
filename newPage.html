@@ -18,19 +18,30 @@
 <script src="Chamber.js"></script> 
 <!-- <script src="jquery-3.2.1.min.js"></script> -->
 <style>
-    .panel2
+    .topPanel
     {
         width:          400px;
         float:          left;
         margin-right:   20px;
         margin-left:    20px;
     }
-    .panel3
+    .mainPanel
+    {
+        width:  600px;
+        float:  left;
+    }
+    .rightPanel
+    {
+        width:  295px;
+        float:  left;
+    }
+    .section
     {
         width:      280px;
         float:      left;
         border:     1px solid;
-        margin-right: 5px;
+        margin:     3px;
+        padding:     5px;
     }
 </style>
 </head>
@@ -40,7 +51,7 @@
 <!--#include virtual="Header.html" -->
 
 <H3>Welcome to Sudbury Suffolk</H3>
-<div class="panel2">
+<div class="topPanel">
     <p>Your gateway to leisure, tourism and business in the Sudbury area. 
     Set in the heart of the Stour Valley, an area of outstanding natural beauty, the
     market town of Sudbury is an ideal centre for both business and pleasure trips
@@ -48,7 +59,7 @@
     </P>
 </div>
 
-<div class="panel2">
+<div class="topPanel">
 <P>For centuries the weaving and silk industry has prospered here and many
 great houses and churches have been built, giving the town a major historical
 legacy. Sudbury has been used for television locations, most significantly for
@@ -56,15 +67,35 @@ BBC's Lovejoy. </P><br>
 </div>
 <div style="clear: both"> </div>
 
-<div class="panel3">
-    <h3>The Chamber of Commerce</h3>
-    <p>For centuries the weaving and silk industry has prospered here and many
-great houses and churches have been built, giving the town a major historical
-legacy. Sudbury has been used for television locations, most significantly for
-BBC's Lovejoy. </p>
-</div>
+<div class="mainPanel">
+    <div class="section">
+        <h3>The Chamber of Commerce</h3>
+        <p>The Chamber of commerce is an active group that supports all businesses
+        in the Sudbury area. The Chamber provides a focal point between the
+        business community and other public bodies like councils and police.</p>
+        <ul>
+            <li>Networking</li>
+            <li>Lobbying for business</li>
+            <li>Monthly business briefings</li>
+            <li>Support and mentoring</li>
+        </ul>
+    </div>
 
-<div class="panel3">
+    <div class="section">
+        <h3>Business and the economy</h3>
+        We run and support activities to support the local economy;
+        <ul>
+            <li>Sudbury in Bloom</li>
+            <li>Careers Fairs</li>
+            <li>Buy local</li>
+            <li>Silk Festival</li>
+            <li>Support for Gainsborough's House</li>
+        </ul>
+    </div>
+
+    <div style="clear: both"> </div>
+
+<div class="section">
     <h3>A great place to visit</h3>
     <p>The ever improving road network, a rail link with Colchester to London and many
     cultural and sporting facilities, fine inns and hotels, make Sudbury an
@@ -74,9 +105,18 @@ BBC's Lovejoy. </p>
     an ideal base for a walking holiday. </p>
 </div>
 
-<div class="panel3">
-    <h3>The local economy</h3>
 </div>
+
+<div class="rightPanel">
+    Right panel
+    <div class="section">
+        <h3>The local economy</h3>
+    </div>
+</div>
+
+<div style="clear: both"> </div>
+
+
 
 <!--#include virtual="Footer.html" -->
 
