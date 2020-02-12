@@ -1,0 +1,15 @@
+<!--    
+			Server side includes.  See http://httpd.apache.org/docs/2.2/howto/ssi.html
+-->
+<!--#if expr="$HTTP_USER_AGENT = /Mozilla/" -->
+	<!--#set var="user" value="desk" --> 
+<!--#else -->
+	<!--#set var="user" value="mob" --> 
+<!--#endif -->
+
+<!--#if expr="$user = mob" -->
+	<!--#include file="mobheader.html" -->
+<!--#else -->
+	<!--#include file="Header.html" -->
+	<!--#include file="Leftmenu.html" -->
+<!--#endif -->

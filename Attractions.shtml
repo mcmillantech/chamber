@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+
+<TITLE>Attractions of Sudbury</TITLE>
+<META NAME="DESCRIPTION"
+ CONTENT="Sudbury, Suffolk, England is an attactive market town surrounded by attractive countryside an classic English villages">
+<META NAME="KEYWORDS" CONTENT="101 Dalmations, Loveyoy, market town, England, countryside"> 
+<meta name=viewport content="width=device-width, initial-scale=1.0">
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<link type="text/css" rel="stylesheet" href="Chamber.css">
+<link type="text/css" rel="stylesheet" href="Menus.css">
+<script src="Chamber.js"></script> 
+</head>
+
+<body onLoad="checkMobile()" >
+
+<!--#include virtual="Header.html" -->
+
+<h2>Sudbury's Attractions</h2>
+<p style="margin-left:5%"><img src="images/MarketHill2.jpg" alt="Sudbury Market Hill" width="90%" align="center"></p>
+hall close to their meeting place, and opposite St Peter's church. At the side
+of the church is the (real) drinking trough where the 101 dalmations took a
+drink when they crossed into Suffolk. In front of St Peter's church is the
+statue of Thomas Gainsborough which overlooks the market place. </P>
+<P>The Market Hill contains many fine buildings, now mostly converted into
+shops. At the far end is the old Corn Exchange, now converted to the library,
+while the opposite fork in the road leads to
+<A HREF="http://www.gainsborough.org/">Gainsborough's House</A>, the home of
+the artist, now an exhibition of Gainsborough's life and work together with
+work from other painters.</P>
+<P>Beyond the library is Friars Street, with many old buildings. 400 metres
+along Friars Street is <A HREF="QuayLane.html">Quay Lane</A>, which leads to the
+Quay Theatre and the Granary. </P>
+<P>The centre of Sudbury contains many interesting alleys and streets. To the
+North of the town hall is North Street. This is another attractive street which
+is fast becoming the main shopping area of the town. It has been used as the
+location for the TV Lovejoy series. North Street contains a wide selection of
+shops, both national and independent. </P>
+<P>Heading from the town centre towards Colchester, one crosses the one way
+street and comes to Belle Vue park. This is perfect for just sitting - it has
+beautiful lawns and floral displays, as well as aviaries and other collections
+of animals. For the more active, there are public tennis courts and a skate
+boarding area.</P>
+<P>Next to the station and the long stay car parks is the Kingfisher Leisure
+Centre. This has a swimming pool with a beach area, flume and wave machine. It
+also has many other fitness areas.</P>
+<p>There is more information on the <a href="http://www.sudburytowncouncil.co.uk/">Sudbury Town Council web site</a>.
+</p>
+
+<!--#include virtual="Footer.html" -->
+
+</body>
+</html>

@@ -1,0 +1,209 @@
+/* Chamber.css */
+
+H1 {color:#0086b3; font-family:arial, sans-serif; text-align:center; font-size:160%; font-weight:bold}
+/* H2 {color:#0094da; font-family:arial, sans-serif; text-align:center; font-size:130%; font-weight:bold} */
+H2 {color:#0086b3; font-family:arial, sans-serif; text-align:center; font-size:130%; font-weight:bold}
+H3 {color:#0094da; font-family:arial, sans-serif; font-size:115%; font-weight:bold}
+H3.banner
+{
+	width:95%;
+/*	background-color:#a00402; */
+	background-color:#182152;
+	color:			#ffffff;
+	font-family:	arial, sans-serif;
+	text-align:		center;
+	font-size:		100%;
+	font-weight:	normal;
+}
+
+.welcome
+{
+	color:			#0086b3; 
+	font-family:	arial, sans-serif;
+	font-weight:	bold;
+	font-size:		150%;
+}
+
+
+b.footer
+{
+	font-family:	arial, sans-serif;
+	color:			#0086b3;
+	font-weight:	bold;
+}
+small.footer { font-size:80%; }
+small.HalfFeed { font-size:50%; }
+
+#BannerL
+{
+	top:			2em;
+	width:			50%;
+	float:			left;
+	height:			5em;
+}
+
+#BannerR
+{
+	top:			2em;
+	width:			20%;
+	float:			right;
+	height:			5em;
+}
+
+#Menu
+{
+	clear:			left;
+	width:			100%;
+	padding-top:	0.4em;
+/*	background-color:#a00402; */
+	background-color:   #0086b3;
+	color:			#ffffff;
+	height:			2em;
+}
+
+ul#menu li {
+    list-style-type:none;
+    margin-left:	-2.5em;
+    height: 		33px;
+}
+
+#leftDeskMenu
+{
+	float: 			left;
+	width: 			18%;
+/*	background-color:#a00402; */
+	background-color:#0094da;
+}
+
+.leftmenu
+{
+	float: 			left;
+	width: 			18%;
+/*	background-color:#a00402; */
+	background-color:#0094da;
+}
+
+.MainPanel
+{
+	float:			left;
+	margin-left: 	10px;
+	width: 			58%;
+	z-index:		3
+}
+
+#MainPanel
+{
+	float:			left;
+	margin-left: 	2%;
+	margin-right: 	2%;
+	width: 			57%;
+	z-index:		3
+}
+
+#RightDeskBar
+{
+	float:			left;
+/*	border-style:solid; */
+	margin-left:	10px;
+}
+
+.rightBar
+{
+	float:			left;
+	margin-left:	10px;
+}
+
+.footright
+{
+	width:			22%;
+	float:			right;
+	text-align:		center;
+	background-color:#FFFF66;
+	border-style:	solid;
+	border-width:	1px;
+}
+
+/* ---------  Form styles ---------------*/
+/* ---------  Used in BookMeeting.php  --*/
+
+.frmPrompt
+{
+//	position:		absolute;
+//	left:			75px;
+	float:			left;
+}
+
+.frmInput
+{
+	float:			right;
+//	position:		absolute;
+//	left:			170px;
+}
+
+/* ---------- Mobile styles ------------ */
+#Menubutton
+{
+	background:		#a00402;
+	width:			110px;
+	height:			40px;
+	color:			white;
+	text-align:		center;
+	font-size:		150%;
+	font-weight:	bold;
+	border-radius:	5px;
+}
+
+#busdirbutton
+{
+/*	background-color:#a00402; */
+	background-color:#0094da;
+	width:			220px;
+	height:			40px;
+	color:			white;
+	text-align:		center;
+	font-size:		18pt;
+	font-weight:	bold;
+	border-radius:	5px;
+}
+
+h3.mobile
+{
+	background:		#a00402;
+	color:			white;
+}
+
+#mobileLeftSide
+{
+	float:			left;
+	width:			45%;
+	border-style:	solid;
+	border-color:	#a00402;
+	border-width:	2px;
+	margin-left:	1%;
+}
+
+#mobileRightSide
+{
+	float:			right;
+	width:			45%;
+	border-style:	solid;
+	border-color:	#a00402;
+	border-width:	2px;
+	margin-right:	1%;
+}
+
+.acmain
+{
+	float:			left;
+	width:			75%;
+}
+
+.acclasses
+{
+	float:			right;
+}
+
+.acheading
+{
+	background-color: grey;
+}

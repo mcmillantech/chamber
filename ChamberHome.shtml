@@ -1,0 +1,47 @@
+<!doctype html>
+ 
+<html>
+ 
+<head>
+<title>Sudbury Chamber of Commerce</title>
+<meta name="description"
+ content="Sudbury Chamber of Commerce home page">
+<meta name=viewport content="width=device-width, initial-scale=1.0">
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<link type="text/css" rel="stylesheet" href="Chamber.css">
+<link type="text/css" rel="stylesheet" href="Menus.css">
+
+<script src="Chamber.js"></script> 
+</head>
+
+<body onLoad="checkMobile()" >
+
+<!--#include virtual="Header.html" -->
+
+<H2>The Chamber of Commerce</H2>
+Sudbury Chamber of Commerce is a thriving example of
+effective networking in the local business community.<br>
+<br>
+There is a monthly lunch at the Bridge Project, Gainsborough Street at which guest speakers are
+invited to talk on topics of interest to members.<br>
+<br>
+The Chamber, is run on a voluntary basis and takes up issues that effect the
+prosperity and well being of the town and its surroundings. We work extensively 
+with Sudbury Town, Babergh District and Suffolk County councils to make sure 
+business interests are recognised. We organise events to promote local business. 
+The Chamber liaises with both Thomas Gainsborough and Ormiston Sudbury Academy 
+schools to encourage training related to achieving jobs in the commercial
+sector. <br><br>
+For the latest information, see the <a href="News.shtml">Chamber News</a> page.
+<br><br>
+We are always happy to have new members and for as little as &pound;55 a year,
+we think this is an excellent opportunity to partake in the business community
+of Sudbury.
+<br><br>
+Download an application form <a href="docs/ChamberApplicationForm 2018.pdf">here</a>.
+
+<!--#include virtual="Footer.html" -->
+
+</body>
+</html>
