@@ -23,25 +23,52 @@
         width:          400px;
         float:          left;
         margin-right:   20px;
-        margin-left:    20px;
+        margin-left:    10px;
     }
     .mainPanel
     {
-        width:  600px;
+        width:  590px;
         float:  left;
     }
     .rightPanel
     {
         width:  295px;
         float:  left;
+        margin-left: 10px;
     }
     .section
     {
-        width:      280px;
+        width:      270px;
         float:      left;
         border:     1px solid;
-        margin:     3px;
+        margin-left: 3px;
+        margin-right: 8px;
         padding:     5px;
+        background-color: white;
+    }
+    .sideImage
+    {
+        width:      95%;
+    }
+    
+    .section h3
+    {
+        background-color: #99ccff;
+        color:          black;
+        font-weight:    bold;
+        margin:         -5px;
+        margin-bottom: 5px;
+        padding:        3px;
+    }
+    .button
+    {
+        background-color: black;
+        color:      white;
+        font-family:arial, sans-serif; 
+        padding:    6px;
+    }
+    body{
+        background-color: #f0f0e6;
     }
 </style>
 </head>
@@ -50,7 +77,7 @@
 
 <!--#include virtual="Header.html" -->
 
-<H3>Welcome to Sudbury Suffolk</H3>
+<h2>Welcome to the Sudbury, Suffolk Chamber of Commerce</h2>
 <div class="topPanel">
     <p>Your gateway to leisure, tourism and business in the Sudbury area. 
     Set in the heart of the Stour Valley, an area of outstanding natural beauty, the
@@ -71,8 +98,7 @@ BBC's Lovejoy. </P><br>
     <div class="section">
         <h3>The Chamber of Commerce</h3>
         <p>The Chamber of commerce is an active group that supports all businesses
-        in the Sudbury area. The Chamber provides a focal point between the
-        business community and other public bodies like councils and police.</p>
+        in the Sudbury area. We provide a range of benefits, including:</p>
         <ul>
             <li>Networking</li>
             <li>Lobbying for business</li>
@@ -83,7 +109,8 @@ BBC's Lovejoy. </P><br>
 
     <div class="section">
         <h3>Business and the economy</h3>
-        We run and support activities to support the local economy;
+        We run and support activities to support the local economy.
+        Some examples are:
         <ul>
             <li>Sudbury in Bloom</li>
             <li>Careers Fairs</li>
@@ -91,31 +118,51 @@ BBC's Lovejoy. </P><br>
             <li>Silk Festival</li>
             <li>Support for Gainsborough's House</li>
         </ul>
+        <br>
     </div>
 
-    <div style="clear: both"> </div>
+    <div style="clear: both"><br> </div>
 
-<div class="section">
-    <h3>A great place to visit</h3>
-    <p>The ever improving road network, a rail link with Colchester to London and many
-    cultural and sporting facilities, fine inns and hotels, make Sudbury an
-    excellent place to visit.</p>
-    <p>Sudbury is surrounded by the attractive countryside so often painted
-    by Constable and Gainsborough and by quintessentially English villages. It is
-    an ideal base for a walking holiday. </p>
-</div>
+    <div class="section">
+        <h3>Visit Sudbury</h3>
+        <p>Sudbury is an excellent place to visit. 
+        It is surrounded by the attractive countryside so often painted
+        by Constable and Gainsborough and by quintessentially English villages. 
+        There are many fine pubs, restaurants and coffee shops in the town.</p>
+    </div>
 
+    <div class="section">
+        <h3>A great place for business</h3>
+        Many great companies are based in Sudbury
+        <ul>
+            <li>Quality of life</li>
+            <li>First class work force</li>
+            <li>Vibrant business community</li>
+            <li>Supportive environment</li>
+        </ul>
+    </div>
+
+    <div style="clear: both"><br> </div>
+    <div style="width:200px; padding-left:100px; float:left">
+        <span class="button" onClick="window.location='ChamberHome.shtml'">Chamber</span>
+    </div>
+    <div style="float:left; padding-left:80px;">
+        <span class="button" onClick="window.location='DoBusiness.shtml'">Doing Business</span>
+    </div>
+    <div style="clear: both"><br> </div>
+    <br>
 </div>
 
 <div class="rightPanel">
-    Right panel
-    <div class="section">
-        <h3>The local economy</h3>
+    <img src="images/MarketHill.jpg" style="width:300px" alt="Picture of Sudbury">
+    <div>
+        <h3>Latest news</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
     </div>
 </div>
 
 <div style="clear: both"> </div>
-
+<br>
 
 
 <!--#include virtual="Footer.html" -->
