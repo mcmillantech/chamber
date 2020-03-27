@@ -1,15 +1,15 @@
 <?php
 // ------------------------------------------------------
 //  Project	Sudbury Chamber
-//	File	Connect2.php
-//			Actually common database code
+//  File	Connect2.php
+//  		Actually common database code
 //
-//	Author	John McMillan, McMillan Technolo0gy
+//  Author	John McMillan, McMillan Technolo0gy
 // ------------------------------------------------------
 
 const USER_EMAIL = "john@mcmillantech.co.uk";
 const SEC_EMAIL = "secretary@sudbury.org.uk";
-const BRIEF_LAST = "'2015-03-01'";
+const BRIEF_LAST = "'2018-06-01'";
 const TEST_PAY_RECEIVED = false;				// For Braintree testing
 const ADDRESS = "Unit 4, Byford Road Sudbury CO10 2YG";
 const PHONE = "07850 667901 ";
@@ -37,19 +37,11 @@ const ERR_BM2_EX2 = 46;
 const ERR_PA_CONF = 51;
 
 
-	$config = setConfig();				// Get DB connection parameters
-	$user = $config['dbpw'];
+    $config = setConfig();				// Get DB connection parameters
 
-//	$mysqli = mysqli_connect ('79.170.44.121', $config['dbuser'], $config['dbpw'])
-	$mysqli = mysqli_connect ('127.0.0.1', $config['dbuser'], $config['dbpw'])
-		or myError (ERR_CONNECT, $config['dbname']);
-
-	mysqli_select_db($mysqli, $config['dbname']) 
-		or die("Could not select database : " . mysqli_error($dbConnection));
     $mysqli = mysqli_connect 
             ($config['dbhost'], $config['dbuser'], $config['dbpw'], $config['dbname'])
         or die("Could not connect : " . $mysqli -> error);
-
 
 // ----------------------------------------------
 //	Read the database access parameters from
@@ -59,19 +51,18 @@ const ERR_PA_CONF = 51;
 // ----------------------------------------------
 function setConfig()
 {
-	$hfile = fopen('config.txt', 'r');
-	if (!$hfile)
-		myError(ERR_COMMON_CONFIG, "Could not open config file");
-	$config = array();
-	while (!feof($hfile))
-	{
-		$str = fgets($hfile);
-		sscanf($str, '%s %s', $ky, $val);
-		$config[$ky] = $val;
-	}
-	fclose ($hfile);
-	$_SESSION['config'] = $config;
-	return $config;
+    $hfile = fopen('config.txt', 'r');
+    if (!$hfile)
+            myError(ERR_COMMON_CONFIG, "Could not open config file");
+    $config = array();
+    while (!feof($hfile)) {
+        $str = fgets($hfile);
+        sscanf($str, '%s %s', $ky, $val);
+        $config[$ky] = $val;
+    }
+    fclose ($hfile);
+    $_SESSION['config'] = $config;
+    return $config;
 }
 
 // ---------------------------------------
