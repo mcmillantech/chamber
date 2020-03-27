@@ -1,4 +1,4 @@
+dbhost		shareddb-r.hosting.stackcp.net
 dbname		cl28-chamber
-dbpw		qx23v
+dbpw		chamber-17
 dbuser		cl28-chamber
-braintree	./braintree-php-3.34.0/lib/Braintree.php
