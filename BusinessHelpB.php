@@ -23,31 +23,6 @@
 <link type="text/css" rel="stylesheet" href="Menus.css">
 <script src="Chamber.js"></script> 
 <style>
-    .span3
-    {
-        width:      290px;
-        float:      left;
-        padding-right: 10px;
-    }
-    .section2
-    {
-        width:      425px;
-        float:      left;
-        border:     1px solid;
-        margin-left: 3px;
-        margin-right: 8px;
-        padding:     5px;
-        background-color: white;
-    }
-    .section2 h3
-    {
-        background-color: #99ccff;
-        color:          black;
-        font-weight:    bold;
-        margin:         -5px;
-        margin-bottom: 5px;
-        padding:        3px;
-    }
 </style>
 </head>
 
@@ -58,24 +33,20 @@
 ?>
 
 <h2>Help given to Businesses</h2>
+<img src="images/JobFairW.jpg" style="width:880px" alt="Job Fair">
+    Job Fair
 <div class="span3">
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
     nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
     Ut wisi enim ad minim veniam, quis nostrud exerci tation 
-    ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
 </div>
 
 <div class="span3">
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
     nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
     Ut wisi enim ad minim veniam, quis nostrud exerci tation 
-    ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
 </div>
 
-<div class="span3">
-    <img src="images/Lunch09-19a.jpg" style="width:280px" alt="Chamber meeting">
-    Discussion on the future of Sudbury
-</div>
 <div style="clear: both"> </div>
 <br>
 <div class="section2">
@@ -119,7 +90,7 @@
 </div>
 
 <div style="clear: both"><br> </div>
-
+<!--
 <div class="section2">
     <img src="images/Charvonia.jpg" style="width:420px" alt="Chamber meeting">
     Meeting the Chief Executive of Babergh DC
@@ -127,7 +98,7 @@
 <div class="section2">
     <img src="images/JobFair.jpg" style="width:377px" alt="Job Fair">
     <br>Job fair
-</div>
+</div> -->
 
 <?php
     require("Footer.html");
