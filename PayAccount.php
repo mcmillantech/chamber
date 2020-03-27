@@ -6,6 +6,9 @@
 //
 //	Author	John McMillan, McMillan Technology
 // ------------------------------------------------------
+//ini_set('display_errors', 1);
+//error_reporting(E_ALL);
+	session_start();
 ?>
 <!doctype html>
 
@@ -22,7 +25,6 @@
 <body>
 <?php
 
-	session_start();
 	require "Header.html";
 	require "connect2.php";
 	$config = setConfig();
@@ -37,20 +39,25 @@
 // -----------------------------------
 function confirmBooking()
 {
+    global $mysqli;
+    
 	$config = setConfig();
-
+/*
 			// Record the success into booking table
 	$dbConnection = mysqli_connect ('localhost', $config['dbuser'], $config['dbpw'])
 		or die("Could not connect : " . mysqli_connect_error());
 	mysqli_select_db($dbConnection, $config['dbname']) 
 		or die("Could not select database : " . mysqli_error($dbConnection));
-
+*/
 	echo "<h3>Booking on account</h3>";
 	$ref = $_SESSION['bookingRef'];
 	
 	$query = "SELECT * FROM bookings WHERE ref=$ref";	// Fetch the booking from the table
-	$result = mysqli_query($dbConnection, $query)
-		or myError (ERR_PA_CONF, "Fetch bookings: (" . $mysqli->errno . ") " . $mysqli->error);
+	$result = $mysqli->query($query);
+        if ($result === FALSE) {
+            echo "SQL: $query<br>";
+            myError (ERR_PA_CONF, "Fetch bookings: (" . $mysqli->errno . ") " . $mysqli->error);
+        }
    	$booking = mysqli_fetch_array($result, MYSQL_ASSOC);
    	mysqli_free_result($result);
 
@@ -90,7 +97,7 @@ function confirmBooking()
 //	echo "<p>We have send a confimation and invoice to " . $booking['Email'];
 			// ------- Mark booking as complete
 	$sql = "UPDATE bookings SET State=1, Method='Bank' WHERE ref=$ref";
-	mysqli_query($dbConnection, $sql);
+	$mysqli->query($sql);
 }
 
 // ----------------------------------------
@@ -235,7 +242,7 @@ function buildEmail($ref, $record)
 	$secretary = officerMail('Secretary');
 	$paid = number_format($record['Price'],2);
 
-	$html .= "<p>Payment received&nbsp;&nbsp;&nbsp; £$paid</p>\n";
+	$html .= "<p>Payment received&nbsp;&nbsp;&nbsp; ï¿½$paid</p>\n";
 	$html .= "<p>Your booking reference is $ref</p>\n";
 	$html .= "<p>If you need to add more attendees, please submit them on a second booking.</p>\n";
 	$html .= "<p>To cancel, please contact the secretary $secretary by the Monday lunchtime before the meeting.</p>\n";

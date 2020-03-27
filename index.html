@@ -16,28 +16,162 @@
 <link type="text/css" rel="stylesheet" href="Chamber.css">
 <link type="text/css" rel="stylesheet" href="Menus.css">
 <script src="Chamber.js"></script> 
-<!-- <script src="jquery-3.2.1.min.js"></script> -->
+<script>
+    function start()
+    {
+        checkMobile();
+//	var el = document.getElementById('MainPanel');
+//	el.style.width = "900px";
+        
+    }
+</script>
+<style>
+    .topPanel
+    {
+        width:          400px;
+        float:          left;
+        margin-right:   20px;
+        margin-left:    10px;
+    }
+    .panel1
+    {
+        width:  590px;
+        float:  left;
+    }
+    .rightPanel
+    {
+        width:  295px;
+        float:  left;
+        margin-left: 10px;
+    }
+    .section
+    {
+        width:      270px;
+        float:      left;
+        border:     1px solid;
+        margin-left: 3px;
+        margin-right: 8px;
+        padding:     5px;
+        background-color: white;
+    }
+    .sideImage
+    {
+        width:      95%;
+    }
+    
+    .section h3
+    {
+        background-color: #99ccff;
+        color:          black;
+        font-weight:    bold;
+        margin:         -5px;
+        margin-bottom: 5px;
+        padding:        3px;
+    }
+    .button
+    {
+        background-color: black;
+        color:      white;
+        font-family:arial, sans-serif; 
+        padding:    6px;
+    }
+    body{
+        background-color: #f0f0e6;
+    }
+</style>
 </head>
 
 <body onLoad="checkMobile()" >
 
 <!--#include virtual="Header.html" -->
 
-<H2>Sudbury and District Chamber of Commerce and Industry</H2>
-<H3>Welcome to Sudbury Suffolk</H3>
-<p style="margin-left:5%"><img src="images/MarketHill2.jpg" alt="Sudbury Market Hill" width="90%" align="center"></p>
-<p>Your gateway to leisure, tourism and business in the Sudbury area. Set in the heart of the Stour Valley, an area of outstanding natural beauty, the
-market town of Sudbury is an ideal centre for both business and pleasure trips
-to East Anglia. Sudbury is an ancient market town dating back to Saxon times.
-The ever improving road network, a rail link with Colchester to London and many
-cultural and sporting facilities, fine inns and hotels, makes Sudbury an
-excellent place to visit.</P>
+<h2>Welcome to the Sudbury, Suffolk Chamber of Commerce</h2>
+<div class="topPanel">
+    <p>Your gateway to leisure, tourism and business in the Sudbury area. 
+    Set in the heart of the Stour Valley, an area of outstanding natural beauty, the
+    market town of Sudbury is an ideal centre for both business and pleasure trips
+    to East Anglia. Sudbury is an ancient market town dating back to Saxon times.
+    </P>
+</div>
+
+<div class="topPanel">
 <P>For centuries the weaving and silk industry has prospered here and many
 great houses and churches have been built, giving the town a major historical
 legacy. Sudbury has been used for television locations, most significantly for
-BBC's Lovejoy. It is surrounded by the attractive countryside so often painted
-by Constable and Gainsborough and by quintessentially English villages. It is
-an ideal base for a walking holiday. </P><br>
+BBC's Lovejoy. </P><br>
+</div>
+<div style="clear: both"> </div>
+
+<div class="panel1">
+    <div class="section">
+        <h3>The Chamber of Commerce</h3>
+        <p>The Chamber of commerce is an active group that supports all businesses
+        in the Sudbury area. We provide a range of benefits, including:</p>
+        <ul>
+            <li>Networking</li>
+            <li>Lobbying for business</li>
+            <li>Monthly business briefings</li>
+            <li>Support and mentoring</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h3>Business and the economy</h3>
+        We run and support activities to support the local economy.
+        Some examples are:
+        <ul>
+            <li>Sudbury in Bloom</li>
+            <li>Careers Fairs</li>
+            <li>Buy local</li>
+            <li>Silk Festival</li>
+            <li>Support for Gainsborough's House</li>
+        </ul>
+        <br>
+    </div>
+
+    <div style="clear: both"><br> </div>
+
+    <div class="section">
+        <h3>Visit Sudbury</h3>
+        <p>Sudbury is an excellent place to visit. 
+        It is surrounded by the attractive countryside so often painted
+        by Constable and Gainsborough and by quintessentially English villages. 
+        There are many fine pubs, restaurants and coffee shops in the town.</p>
+    </div>
+
+    <div class="section">
+        <h3>A great place for business</h3>
+        Many great companies are based in Sudbury
+        <ul>
+            <li>Quality of life</li>
+            <li>First class work force</li>
+            <li>Vibrant business community</li>
+            <li>Supportive environment</li>
+        </ul>
+    </div>
+
+    <div style="clear: both"><br> </div>
+    <div style="width:200px; padding-left:100px; float:left">
+        <span class="button" onClick="window.location='ChamberHome.shtml'">Chamber</span>
+    </div>
+    <div style="float:left; padding-left:80px;">
+        <span class="button" onClick="window.location='DoBusiness.shtml'">Doing Business</span>
+    </div>
+    <div style="clear: both"><br> </div>
+    <br>
+</div>
+
+<div class="rightPanel">
+    <img src="images/MarketHill.jpg" style="width:300px" alt="Picture of Sudbury">
+    <div>
+        <h3>Latest news</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+    </div>
+</div>
+
+<div style="clear: both"> </div>
+<br>
+
 
 <!--#include virtual="Footer.html" -->
 

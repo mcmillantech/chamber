@@ -1,5 +1,10 @@
 /* Chamber.css */
 
+body
+{
+    background-color: #f0f0e6;
+}
+
 H1 {color:#0086b3; font-family:arial, sans-serif; text-align:center; font-size:160%; font-weight:bold}
 /* H2 {color:#0094da; font-family:arial, sans-serif; text-align:center; font-size:130%; font-weight:bold} */
 H2 {color:#0086b3; font-family:arial, sans-serif; text-align:center; font-size:130%; font-weight:bold}
@@ -7,28 +12,27 @@ H3 {color:#0094da; font-family:arial, sans-serif; font-size:115%; font-weight:bo
 H3.banner
 {
 	width:95%;
-/*	background-color:#a00402; */
 	background-color:#182152;
-	color:			#ffffff;
+	color:		#ffffff;
 	font-family:	arial, sans-serif;
-	text-align:		center;
-	font-size:		100%;
+	text-align:	center;
+	font-size:	100%;
 	font-weight:	normal;
 }
 
 .welcome
 {
-	color:			#0086b3; 
+	color:		#0086b3; 
 	font-family:	arial, sans-serif;
 	font-weight:	bold;
-	font-size:		150%;
+	font-size:	150%;
 }
 
 
 b.footer
 {
 	font-family:	arial, sans-serif;
-	color:			#0086b3;
+	color:		#0086b3;
 	font-weight:	bold;
 }
 small.footer { font-size:80%; }
@@ -128,16 +132,12 @@ ul#menu li {
 
 .frmPrompt
 {
-//	position:		absolute;
-//	left:			75px;
-	float:			left;
+    float:			left;
 }
 
 .frmInput
 {
-	float:			right;
-//	position:		absolute;
-//	left:			170px;
+    float:			right;
 }
 
 /* ---------- Mobile styles ------------ */
@@ -207,3 +207,39 @@ h3.mobile
 {
 	background-color: grey;
 }
+
+    .button
+    {
+        background-color: black;
+        color:      white;
+        font-family:arial, sans-serif; 
+        padding:    6px;
+    }
+    body{
+        background-color: #f0f0e6;
+    }
+    .span3
+    {
+        width:      290px;
+        float:      left;
+        padding-right: 10px;
+    }
+    .section2
+    {
+        width:      425px;
+        float:      left;
+        border:     1px solid;
+        margin-left: 3px;
+        margin-right: 8px;
+        padding:     5px;
+        background-color: white;
+    }
+    .section2 h3
+    {
+        background-color: #99ccff;
+        color:          black;
+        font-weight:    bold;
+        margin:         -5px;
+        margin-bottom: 5px;
+        padding:        3px;
+    }
