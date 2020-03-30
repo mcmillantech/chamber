@@ -20,19 +20,19 @@
 
 	$config = setConfig();
 
-	$dbConnection = mysqli_connect ('shareddb-r.hosting.stackcp.net', $config['dbuser'], $config['dbpw'])
+	$mysqli = mysqli_connect ('shareddb-r.hosting.stackcp.net', $config['dbuser'], $config['dbpw'])
 		or die("Could not connect : " . mysqli_connect_error());
 
-	mysqli_select_db($dbConnection, $config['dbname']) 
-		or die("Could not select database : " . mysqli_error($dbConnection));
+	mysqli_select_db($mysqli, $config['dbname']) 
+		or die("Could not select database : " . mysqli_error($mysqli));
 
 //	date_default_timezone_set("Europe/London");
 //	$today = date('Y-m-d G:i:s');
 
 	$query = "SELECT * FROM news ORDER BY date DESC";
-	$result = mysqli_query($dbConnection, $query)
+	$result = mysqli_query($mysqli, $query)
 		or die ("There has been an error. We apologise for the inconvenience " 
-			. mysqli_error($dbConnection));
+			. mysqli_error($mysqli));
 
 	echo "<h1>Chamber News</h1>";
 
