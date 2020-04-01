@@ -36,11 +36,11 @@ function checkEmailChange()
 // ------------------------------------------------
 function startup()
 {
-	global $mbrLine, $row, $dbConnection;
+	global $mbrLine, $row, $mysqli;
 
 	$query = "SELECT * FROM members ORDER BY Company";
-	$result = mysqli_query($dbConnection, $query) 
-		or die("Query failed $query: " . mysqli_error($dbConnection));
+	$result = mysqli_query($mysqli, $query) 
+		or die("Query failed $query: " . mysqli_error($mysqli));
 	$last = mysqli_num_rows($result) - 1;
 	$row = 0;
 	$view = 'addr';
@@ -64,7 +64,7 @@ function startup()
 // ------------------------------------------------
 function MoveToRecord()
 {
-	global $mbrLine, $row, $dbConnection;
+	global $mbrLine, $row, $mysqli;
 
 	if ($row < 0)
 		$row = 0;
@@ -73,8 +73,8 @@ function MoveToRecord()
 		$row = $last;
 
 	$query = "SELECT * FROM members ORDER BY Company LIMIT $row,1";
-	$result = mysqli_query($dbConnection, $query) 
-		or die("Query failed : " . mysqli_error($dbConnection));
+	$result = mysqli_query($mysqli, $query) 
+		or die("Query failed : " . mysqli_error($mysqli));
 	$mbrLine = mysqli_fetch_array($result, MYSQLI_ASSOC);
 
 	mysqli_free_result($result);
@@ -90,21 +90,21 @@ function MoveToRecord()
 // ------------------------------------------------
 function search()
 {
-	global $row, $dbConnection;
+	global $row, $mysqli;
 						// Locate the search match - get the match in $cos	
 
 //	$str = $_POST['Search'] . '%';
 	$str = $_GET['v'] . '%';
 	$query = "SELECT Company FROM members WHERE Company LIKE '$str'";
-	$result = mysqli_query($dbConnection, $query) 
-		or die("Search 1 failed $query : " . mysqli_error($dbConnection));
+	$result = mysqli_query($mysqli, $query) 
+		or die("Search 1 failed $query : " . mysqli_error($mysqli));
 	$line = mysqli_fetch_array($result, MYSQLI_ASSOC);
 	$cos = $line['Company'];
 	mysqli_free_result($result);
 						// Now find the index to the row
 	$query = "SELECT Company FROM members WHERE Company <= '$cos'";
-	$result = mysqli_query($dbConnection, $query) 
-		or die("Search 2 failed $query : " . mysqli_error($dbConnection));
+	$result = mysqli_query($mysqli, $query) 
+		or die("Search 2 failed $query : " . mysqli_error($mysqli));
 	$row = mysqli_num_rows($result) - 1;
 	$_SESSION['row'] = $row;
 	mysqli_free_result($result);
@@ -120,11 +120,11 @@ function search()
 // ------------------------------------------------
 function fetchRow()
 {
-	global $row, $mbrLine, $dbConnection;
+	global $row, $mbrLine, $mysqli;
 
 	$query = "SELECT * FROM members ORDER BY Company LIMIT $row,1";
-	$result = mysqli_query($dbConnection, $query) 
-		or die("Fetch row failed $query : " . mysqli_error($dbConnection));
+	$result = mysqli_query($mysqli, $query) 
+		or die("Fetch row failed $query : " . mysqli_error($mysqli));
 	$mbrLine = mysqli_fetch_array($result, MYSQLI_ASSOC);
 	mysqli_free_result($result);
 	$_SESSION['index'] = $mbrLine['Company'];
@@ -139,7 +139,7 @@ function fetchRow()
 function doUpdate()
 {
 //	checkEmailChange();
-	global $view, $mbrLine, $dbConnection;
+	global $view, $mbrLine, $mysqli;
 
 	foreach($_POST as $key => $str)
 		$_POST[$key] = addslashes($str);
@@ -162,8 +162,8 @@ function doUpdate()
 		. $upd
 		. " WHERE inx = '$index'";
 
-	mysqli_query($dbConnection, $sql)
-		or die ("Update failed : " . mysqli_error($dbConnection));
+	mysqli_query($mysqli, $sql)
+		or die ("Update failed : " . mysqli_error($mysqli));
 }
 
 // ------------------------------------------------
@@ -287,15 +287,15 @@ return $dsc;
 // ------------------------------------------------
 function doInsert()
 {
-	global $row, $mbrLine, $dbConnection;
+	global $row, $mbrLine, $mysqli;
 
 	$row = 0;
 	$ins = "INSERT INTO members (Company) VALUES ('') "
 		. "ON DUPLICATE KEY UPDATE Company = ''";
 	$query = "SELECT * FROM members ORDER BY Company LIMIT $row,1";
-	mysqli_query ($dbConnection, $ins);
-	$result = mysqli_query($dbConnection, $query)
-		or die("Insert search failed $query : " . mysqli_error($dbConnection));
+	mysqli_query ($mysqli, $ins);
+	$result = mysqli_query($mysqli, $query)
+		or die("Insert search failed $query : " . mysqli_error($mysqli));
 	$mbrLine = mysqli_fetch_array($result, MYSQLI_ASSOC);
 	mysqli_free_result($result);
 //	$_SESSION['index'] = '';
@@ -307,13 +307,13 @@ function doInsert()
 // ------------------------------------------------
 function doDelete()
 {
-	global $dbConnection;
+	global $mysqli;
 
 	$index = $_SESSION['mbrLine']['inx'];	// The original customer name
 //echo "Deleting record $index <br>\n";
 	$sql = "DELETE FROM members WHERE inx = $index";
-	$result = mysqli_query ($dbConnection, $sql)
-		or die("Delete failed $query : " . mysqli_error($dbConnection));
+	$result = mysqli_query ($mysqli, $sql)
+		or die("Delete failed $query : " . mysqli_error($mysqli));
 
 	MoveToRecord();
 }
